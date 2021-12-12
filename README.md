@@ -8,7 +8,7 @@ Authors: Lior Abramovich & Liel Biton
 - NodeData (implemented by NodeDataImpl) - an object displays the vertices in the graph and the actions that are performed on them. The vertex receives a key, tag, and data.
 - EdgeData (implemented by EdgeDataImpl) - an object displays the edges in the graph and the actions that are performed on them. Theedges receives a src, dest, and wieght.
 - DirectedWeightedGraphAlgorithms (implemented by DirectedWeightedGraphAlgorithmsImpl) - an object that implements some basic graph algorithms with Dijkstra's and BFS algorithms.
-- The main reasons that i chose HashMap is because i saw that we need to do things in O(1) and we neet to work whit Collections
+- Gui.
 
 ## Methods
 
@@ -166,72 +166,19 @@ Example:
 ![Center Example](https://i.ibb.co/k4xtK6K/Screen-Shot-2021-12-08-at-18-41-37.png)
 
 ## Performance test results:
-## Center nodes test
-- 1k nodes:
 
-![Center 1k nodes](https://i.ibb.co/0mhT9Wg/1knodes-center.jpg)
+## 1,000 Nodes
 
-- 10k nodes:
+![1k nodes](https://i.ibb.co/c1QB55h/1k.png)
 
-![Center 10k nodes](https://i.ibb.co/HGbBgXz/10knodescenter.jpg)
+## 10,000 Nodes
 
-- 100k nodes:
+![10k nodes](https://i.ibb.co/HCr85Nt/10k.png)
 
-## IsConnected nodes test
+## 100,000 Nodes
 
-- 1k nodes:
+![100k nodes](https://i.ibb.co/JmHB7QC/100k.png)
 
-![IsConnected 1k nodes](https://i.ibb.co/dW9xT3k/1knodes-isconnected.jpg)
-
-- 10k nodes:
-
-![IsConnected 10k nodes](https://i.ibb.co/Ldcg1Zf/10knodesisconnected.jpg)
-
-- 100k nodes:
-
-![IsConnected 100k nodes](https://i.ibb.co/6NRyF6g/100knodes-is-connected.jpg)
-
-## Save nodes test
-
-- 1k nodes:
-
-![Save 1k nodes](https://i.ibb.co/wgQPTD4/1knodes-save.jpg)
-
-- 10k nodes:
-
-![Save 10k nodes](https://i.ibb.co/XJ31fcW/10nodes-saved.jpg)
-
-- 100k nodes:
-
-![Save 100k nodes](https://i.ibb.co/h271nHp/100knodes-save.jpg)
-
-## Load nodes test
-
-- 1k nodes:
-
-![load 1k nodes](https://i.ibb.co/gR1h6xf/1knodes-load.jpg)
-
-- 10k nodes:
-
-![load 10k nodes](https://i.ibb.co/bQwkwJ0/10knodes-load.jpg)
-
-- 100k nodes:
- 
-![load 100k nodes](https://i.ibb.co/D998CpL/100knodes-load.jpg)
-
-## Copy nodes test
-
-- 1k nodes:
-
-![copy 1k nodes](https://i.ibb.co/C7xWVDt/1knodes-copy.jpg)
-
-- 10k nodes:
-
-![copy 10k nodes](https://i.ibb.co/wJSwTDW/10knodes-copy.jpg)
-
-- 100k nodes:
-
-![copy 100k nodes](https://i.ibb.co/JmyGD6b/100knodes-copy.jpg)
 
 
 
@@ -240,3 +187,7 @@ Example:
 
 
 ## Sources and links:
+
+https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+
+https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/
