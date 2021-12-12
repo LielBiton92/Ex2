@@ -186,15 +186,8 @@ Example:
 
 -download the jar file from the github
 
--open new java project
-
--add to the data package the jar file
-
--add the files which you want to load .
-
--open a new terminal fron the jar file.
-
--write this :java -jar Ex2.jar filename.json in the terminal
+in the folder "Ex2\data" there is a jar file
+open folder in terminal and type the command java -jar Ex2.jar "Graph json file path"
 
 -press enter
 
