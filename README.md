@@ -179,6 +179,24 @@ Example:
 
 ![100k nodes](https://i.ibb.co/JmHB7QC/100k.png)
  center - runtime expection . 
+ 
+ 
+ ## How to open the jar file
+ 
+
+-download the jar file from the github
+
+-open new java project
+
+-add to the data package the jar file
+
+-add the files which you want to load .
+
+-open a new terminal fron the jar file.
+
+-write this :java -jar Ex2.jar filename.json in the terminal
+
+-press enter
 
 
 
