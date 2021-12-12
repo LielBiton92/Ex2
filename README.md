@@ -85,7 +85,7 @@ compareTo(node_info n)|	comper between two nodes weight
 
 ## Part 2 - GUI
 - In this part are the departments that implement the design (GUI, JPanel, JFarme).
-- For the purpose of creating the GUI we implemented the myPanel and myFarme classes which represent and create a drawing of a graph.
+
 
 ![GUI](https://i.ibb.co/RgxxKYm/Screen-Shot-2021-12-08-at-15-32-37.png)
 
