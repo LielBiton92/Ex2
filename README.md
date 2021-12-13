@@ -165,3 +165,43 @@ Example:
 
 ![Center Example](https://i.ibb.co/k4xtK6K/Screen-Shot-2021-12-08-at-18-41-37.png)
 
+## Performance test results:
+
+## 1,000 Nodes
+
+![1k nodes](https://i.ibb.co/c1QB55h/1k.png)
+
+## 10,000 Nodes
+
+![10k nodes](https://i.ibb.co/HCr85Nt/10k.png)
+
+## 100,000 Nodes
+
+![100k nodes](https://i.ibb.co/JmHB7QC/100k.png)
+ 
+ 
+!center - runtime expection . 
+ 
+ 
+ ## How to open the jar file
+ 
+
+-download the jar file from the github
+
+in the folder "Ex2\data" there is a jar file
+open folder in terminal and type the command java -jar Ex2.jar "Graph json file path"
+
+-press enter
+
+
+
+
+
+
+
+
+## Sources and links:
+
+https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+
+https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/
