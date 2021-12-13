@@ -82,8 +82,8 @@ compareTo(node_info n)|	comper between two nodes weight
  
  
 
-![image](https://imgur.com/aC3WsGN)
 
+![UML](https://user-images.githubusercontent.com/92746221/145861331-3ce880b7-2877-4d1b-88fc-0bd6a14d1d25.png)
 
 
 ## Part 2 - GUI
