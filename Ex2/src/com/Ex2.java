@@ -45,7 +45,6 @@ public class Ex2 {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-//        runGUI(args[0]);
-        runGUI("data/G2.json");
+       runGUI(args[0]);
     }
 }
