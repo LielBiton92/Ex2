@@ -82,7 +82,7 @@ compareTo(node_info n)|	comper between two nodes weight
  
  
 
-![image](https://ibb.co/nQTSwbq)
+![image](https://imgur.com/aC3WsGN)
 
 
 
