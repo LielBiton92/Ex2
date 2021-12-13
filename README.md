@@ -188,10 +188,9 @@ Example:
 
 -download the jar file from the github
 
-in the folder "Ex2\data" there is a jar file
-open folder in terminal and type the command java -jar Ex2.jar "Graph json file path"
 
--press enter
+- type the command java -jar Ex2.jar "Graph json file path"
+
 
 
 
