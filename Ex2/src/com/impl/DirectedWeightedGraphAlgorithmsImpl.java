@@ -80,9 +80,7 @@ public class DirectedWeightedGraphAlgorithmsImpl implements DirectedWeightedGrap
 
     @Override
     public double shortestPathDist(int src, int dest) {
-//        if (src == dest) {
-//            return 0;
-//        }
+
 //        mFloydWarshal.performFloydWarshalAlgoIfNeeded();
 //        double distWeight = mFloydWarshal.getWeight(new SrcDest(src, dest));
 //        return distWeight != Double.MAX_VALUE ? distWeight : -1;
@@ -164,33 +162,6 @@ public class DirectedWeightedGraphAlgorithmsImpl implements DirectedWeightedGrap
     }
 
 
-//    @Override
-//    public NodeData center() {
-//        if (isConnected()) {
-//            double min = Double.MAX_VALUE;
-//            // will be the vertical with the min radios value to the most far vertical.
-//            int index = -1;
-//            mFloydWarshal.performFloydWarshalAlgoIfNeeded();
-//            Iterator<NodeData> node = mGraph.nodeIter();
-//            // will move on every node and check if its potential to be the center
-//            while (node.hasNext()) {
-//                double max = 0;
-//                NodeData src = node.next();
-//                //check the short path with all the other nodes
-//                Iterator<NodeData> temp = mGraph.nodeIter();
-//                while (temp.hasNext()) {
-//                    NodeData dst = temp.next();
-//                    max = (shortestPathDist(src.getId(), dst.getId()) > max) ? shortestPathDist(src.getId(), dst.getId()) : max;
-//                }
-//                if (min > max) {
-//                    min = max;
-//                    index = src.getId();
-//                }
-//            }
-//            if (index != -1) return mGraph.getNode(index);
-//        }
-//        return null;
-//    }
 
 
     private HashSet<NodeData> visited = new HashSet<>();
