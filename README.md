@@ -78,8 +78,11 @@ setInfo(String s)|	Set the info nodes
 getTag()|	Returns the nodes tag
 setTag(double t)|	Set the tag nodes
 compareTo(node_info n)|	comper between two nodes weight
+ 
+ 
+ 
 
-
+![image](https://ibb.co/nQTSwbq)
 
 
 
